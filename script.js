@@ -7,3 +7,7 @@
 function gridTemplate() {
 
 }
+
+// MATHTYPE
+alert(editor.getMathML());
+editor.setMathML("<html><math><mfrac><mn>1</mn><mi>x</mi></mfrac></math></html>");
