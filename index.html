@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MATHTYPE -->
+    <script src="https://www.wiris.net/demo/editor/editor"></script>
+    <script>
+        var editor;
+        window.onload = function () {
+            editor = com.wiris.jsEditor.JsEditor.newInstance({'language': 'en'});
+            editor.insertInto(document.getElementById('editorContainer'));
+        }
+    </script>
+    <!-- AKHIR MATHTYPE -->
+
     <link rel="stylesheet" href="style.css">
     <title>Square Input Maker</title>
 </head>
 <body>
     <h1>Square Input Maker</h1>
+    <div id="editorContainer"></div>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
