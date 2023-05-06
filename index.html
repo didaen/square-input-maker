@@ -24,6 +24,36 @@
     <div id="editorContainer"></div>
 
 
+    <!--
+      Adding the `tinymce-editor` element with various options set as attributes.
+    -->
+    <tinymce-editor
+      api-key="renan0kf8qhzlinajlwniqo0la719ig56oq7hodtbpoedhfz"
+      height="500"
+      menubar="false"
+      plugins="advlist autolink lists link image charmap preview anchor
+        searchreplace visualblocks code fullscreen
+        insertdatetime media table code help wordcount"
+      toolbar="undo redo | blocks | bold italic backcolor |
+        alignleft aligncenter alignright alignjustify |
+        bullist numlist outdent indent | removeformat | help"
+      content_style="body
+      {
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:14px
+      }"
+      >
+
+      <!-- Adding some initial editor content -->
+      &lt;p&gt;Welcome to the TinyMCE Web Component example!&lt;/p&gt;
+
+    </tinymce-editor>
+
+    <!--
+      Sourcing the `tinymce-webcomponent` from jsDelivr,
+      which sources TinyMCE from the Tiny Cloud.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/@tinymce/tinymce-webcomponent@2/dist/tinymce-webcomponent.min.js"></script>
 
     <script src="script.js"></script>
 </body>
