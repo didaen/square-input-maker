@@ -23,7 +23,7 @@
       Adding the `tinymce-editor` element with various options set as attributes.
     -->
     <tinymce-editor
-      api-key="no-api-key"
+      api-key="renan0kf8qhzlinajlwniqo0la719ig56oq7hodtbpoedhfz"
       height="500"
       menubar="false"
       plugins="advlist autolink lists link image charmap preview anchor
